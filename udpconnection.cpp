@@ -36,8 +36,14 @@ bool UDPConnection::setDestinationIP(QHostAddress destination_address)
 
 bool UDPConnection::setSourcePort(qint16 source_port)
 {
+    source_port_ = source_port;
+}
+
+bool UDPConnection::startConnection()
+{
+    //Тут стоит добавить проверку, все ли значения установлены
     socket_->close();
-    return socket_->bind(QHostAddress::LocalHost, source_port);
+    return socket_->bind(QHostAddress::LocalHost, source_port_);
 }
 
 QVector<QByteArray> UDPConnection::receiveData()
