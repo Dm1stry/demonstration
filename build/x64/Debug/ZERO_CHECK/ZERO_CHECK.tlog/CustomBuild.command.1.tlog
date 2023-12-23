@@ -1,0 +1,10 @@
+^D:\FILE_STORAGE\CODE\1. PROJECTS\FGPA_INTERFACE\BUILD\CMAKEFILES\8A1521574744554E116D2DA66CDB4124\GENERATE.STAMP.RULE
+setlocal
+D:\Development\cmake_3.25.1\bin\cmake.exe "-SD:/File_Storage/Code/1. Projects/FGPA_Interface" "-BD:/File_Storage/Code/1. Projects/FGPA_Interface/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/File_Storage/Code/1. Projects/FGPA_Interface/build/FGPA_interface.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

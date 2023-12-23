@@ -1,0 +1,5 @@
+D:/File_Storage/Code/1. Projects/FGPA_Interface/build/CMakeFiles/FGPA_interface.dir
+D:/File_Storage/Code/1. Projects/FGPA_Interface/build/CMakeFiles/Client.dir
+D:/File_Storage/Code/1. Projects/FGPA_Interface/build/CMakeFiles/Server.dir
+D:/File_Storage/Code/1. Projects/FGPA_Interface/build/CMakeFiles/ALL_BUILD.dir
+D:/File_Storage/Code/1. Projects/FGPA_Interface/build/CMakeFiles/ZERO_CHECK.dir
